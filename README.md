@@ -2,6 +2,8 @@
 Detta är ett RESTfulAPI byggd med Fastify och MongoDb. Webbtjänsten används för att hantera 
 en samling av filmer och stödjer full CRUD-funktionalitet (Create, Read, Update, Delete).
 
+[Länk till publicerat API](https://fastify-movieapi.onrender.com/movies)
+
 ## Verktyg
 * Node.js (ESM)
 * Fastify
