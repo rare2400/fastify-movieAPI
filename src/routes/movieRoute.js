@@ -1,4 +1,4 @@
-import * as movieController from "../controllers/movieController.js"
+import * as movieController from "../controllers/movieController.js";
 import { movieSchema } from "../schemas/movieSchema.js";
 
 export default async function movieRoutes(fastify) {
