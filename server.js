@@ -3,7 +3,7 @@
 import Fastify from "fastify";
 import dotenv from "dotenv";
 import mongoPlugin from "./src/plugins/mongo.js";
-import movieRoutes from "./src/routes/MovieRoute.js";
+import movieRoutes from "./src/routes/movieRoute.js";
 
 // Load environment variables from .env file
 dotenv.config();
