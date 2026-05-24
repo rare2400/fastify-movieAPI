@@ -11,6 +11,10 @@ dotenv.config();
 // Fastify server instance with logging enabled
 const fastify = Fastify({ logger: true });
 
+// CORS support to allow requests from any origin
+fastify.register(import('@fastify/cors'), {
+  origin: '*',
+});
 
 // Register plugins and routes
 await fastify.register(mongoPlugin);
