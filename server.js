@@ -12,8 +12,10 @@ dotenv.config();
 const fastify = Fastify({ logger: true });
 
 // CORS support to allow requests from any origin
-fastify.register(import('@fastify/cors'), {
-  origin: '*',
+await fastify.register(import('@fastify/cors'), {
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowHeaders: ["Content-Type", "Authorization"]
 });
 
 // Register plugins and routes
