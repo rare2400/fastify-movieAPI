@@ -7,6 +7,6 @@ export const movieSchema = {
         year: { type: "integer", minimum: 1888, maximum: 2050 },
         length: { type: "integer", minimum: 1 },
         watched: { type: "boolean" },
-        rating: { type: "number", minimum: 0, maximum: 10 }
+        rating: { type: [ "number", null ], minimum: 0, maximum: 10 }
     }
 };
