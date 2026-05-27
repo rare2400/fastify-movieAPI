@@ -52,13 +52,13 @@ fastify-movieapi/
 
 ## API Endpoints
 
-| Metod  | Endpoint      | Skyddad | Beskrivning            |
-|--------|---------------|---------|------------------------|
-| GET    | /movies       | Nej     | Hämtar alla filmer     |
-| GET    | /movies/:id   | Nej     | Hämtar en film         |
-| POST   | /movies       | Ja      | Lägger till en ny film |
-| PUT    | /movies/:id   | Ja      | Uppdaterar en film     |
-| DELETE | /movies/:id   | Ja      | Tar bort en film       |
+| Metod  | Endpoint      | Beskrivning            |
+|--------|---------------|------------------------|
+| GET    | /movies       | Hämtar alla filmer     |
+| GET    | /movies/:id   | Hämtar en film         |
+| POST   | /movies       | Lägger till en ny film |
+| PUT    | /movies/:id   | Uppdaterar en film     |
+| DELETE | /movies/:id   | Tar bort en film       |
 
 **Exempel på request body (POST och PUT)**
 
